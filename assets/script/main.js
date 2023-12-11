@@ -61,7 +61,7 @@ let fixCallback = function() {
   fix.classList.toggle('changeColor')
 }
 
-// 3 - Koppelen van een actie
+// 3 - Koppelen van acties
   fix.addEventListener('mouseover', fixCallback)
   fix.addEventListener('mouseleave', fixCallback)
 
