@@ -79,3 +79,7 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+
+.changeColor {
+  background:#7ce7c9;
+}
