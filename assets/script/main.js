@@ -35,11 +35,13 @@ and.addEventListener("mouseover", function () {
 
 let development = document.querySelector('a[href="#development"]')
 
-development.addEventListener("keyup", function (Event) { 
+development.addEventListener("keyup", function (Event) {
+  console.log()
   if (Event.key == "4") {
-    this.classList.add("changeColor", "changeWidth", );
+    this.classList.add("changeColor", "changeWidth",);
   }
 })
+
 
 
 
