@@ -15,7 +15,7 @@ frontend.addEventListener("dblclick", function () {
   frontend.classList.add("changeColor");
 })
 
-// Button 2 
+// Button 2 (focusin, with tab)
 
 let design = document.querySelector('.second')
 
@@ -23,13 +23,15 @@ design.addEventListener("focusin", function () {
   this.classList.add("changeColor");
 })
 
-// Button 3 
+// Button 3 (Mouse over / Hover)
 
 let and = document.querySelector('a[href="#and"]')
 
 and.addEventListener("mouseover", function () {
   this.classList.add("changeWidth");
 })
+
+// Button 4
 
 
 
