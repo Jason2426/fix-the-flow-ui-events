@@ -31,7 +31,15 @@ and.addEventListener("mouseover", function () {
   this.classList.add("changeWidth");
 })
 
-// Button 4
+// Button 4 (Keyup 4/ tab to element then press 4)
+
+let development = document.querySelector('a[href="#development"]')
+
+development.addEventListener("keyup", function (Event) { 
+  if (Event.key == "4") {
+    this.classList.add("changeColor", "changeWidth", );
+  }
+})
 
 
 
