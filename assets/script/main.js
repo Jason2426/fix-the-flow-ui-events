@@ -46,11 +46,10 @@ development.addEventListener("keyup", function (Event) {
 
 let sprint5 = document.querySelector('a:nth-of-type(5)')
 
-sprint5.addEventListener('click',
-
-  function () {
+sprint5.addEventListener('click', function () {
     window.open('https://tenor.com/en-GB/view/sonic-run-speed-running-sonic-the-hedgehog-gif-15756844')
   });
+
 
 
 
