@@ -83,3 +83,10 @@ a:nth-of-type(12) {
 .changeColor {
   background:#7ce7c9;
 }
+
+.changeWidth {
+  width: 10em;
+  text-align: center;
+  background-color: #9d7beb;
+  color: whitesmoke;
+}
