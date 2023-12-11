@@ -50,3 +50,19 @@ sprint5.addEventListener('click', function () {
     window.open('https://tenor.com/en-GB/view/sonic-run-speed-running-sonic-the-hedgehog-gif-15756844')
   });
 
+// Button 6 mouseover and mouse leave
+
+// 1 - Selecteren van een element
+
+let fix = document.querySelector('a:nth-of-type(6)')
+
+// 2 - Functie maken om de button te togglen
+let fixCallback = function() {
+  fix.classList.toggle('changeColor')
+}
+
+// 3 - Koppelen van een actie
+  fix.addEventListener('mouseover', fixCallback)
+  fix.addEventListener('mouseleave', fixCallback)
+
+
