@@ -16,3 +16,11 @@ frontend.addEventListener("dblclick", function() {
 } )
 
 // Button 2 
+
+let design = document.querySelector('.second')
+
+design.addEventListener("focusin", function(){
+    this.classList.add("changeColor");
+} )
+
+
