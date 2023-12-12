@@ -17,6 +17,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   background: var(--secondary);
+
+  cursor: url("/assets/icons8-cursor-64.png"), auto;
 }
 section {
   max-width: 90vw;
