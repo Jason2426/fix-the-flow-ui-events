@@ -69,7 +69,9 @@ fix.addEventListener('mouseleave', fixCallback)
 
 let the = document.querySelector('a:nth-of-type(7)')
 the.addEventListener('blur', function () {
-  the.classList.toggle('changeColor')
+  the.classList.add('changeColor')
 })
+
+
 
 

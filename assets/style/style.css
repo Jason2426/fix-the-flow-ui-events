@@ -93,3 +93,32 @@ a:nth-of-type(12) {
   background-color: #9d7beb;
   color: whitesmoke;
 }
+
+.changeHeight{
+  height: 8em;
+  text-align: center;
+}
+
+@keyframes shake {
+  0%{
+    transform: translate(0, 0) rotateZ(0) rotateY(0);
+  }
+  8%{
+    transform: translate(-50, 1px) rotateZ(5deg) rotateY(10deg);
+  }
+  20%{
+    transform: translate(-110px, 5px) rotateZ(10deg) rotateY(40deg);
+  }
+  50%{
+    transform: translate(0px, 0px) rotateZ(0deg) rotateY(0deg);
+  }
+  90%{
+    transform: translate(90px, -4px) rotateZ(-10deg) rotateY(-40deg);
+  }
+  95%{
+    transform: translate(40px, 0px) rotateZ(-5deg) rotateY(-10deg);
+  }
+  100%{
+    transform: translate(0, 0) rotateZ(0) rotateY(0);
+  }
+}
