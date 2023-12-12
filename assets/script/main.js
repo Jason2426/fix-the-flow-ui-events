@@ -47,8 +47,8 @@ development.addEventListener("keyup", function (Event) {
 let sprint5 = document.querySelector('a:nth-of-type(5)')
 
 sprint5.addEventListener('click', function () {
-    window.open('https://tenor.com/en-GB/view/sonic-run-speed-running-sonic-the-hedgehog-gif-15756844')
-  });
+  window.open('https://tenor.com/en-GB/view/sonic-run-speed-running-sonic-the-hedgehog-gif-15756844')
+});
 
 // Button 6 mouseover and mouse leave
 
@@ -57,12 +57,19 @@ sprint5.addEventListener('click', function () {
 let fix = document.querySelector('a:nth-of-type(6)')
 
 // 2 - Functie maken om de button te togglen
-let fixCallback = function() {
+let fixCallback = function () {
   fix.classList.toggle('changeColor')
 }
 
 // 3 - Koppelen van acties
-  fix.addEventListener('mouseover', fixCallback)
-  fix.addEventListener('mouseleave', fixCallback)
+fix.addEventListener('mouseover', fixCallback)
+fix.addEventListener('mouseleave', fixCallback)
+
+// Button 7 
+
+let the = document.querySelector('a:nth-of-type(7)')
+the.addEventListener('blur', function () {
+  the.classList.toggle('changeColor')
+})
 
 
