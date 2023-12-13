@@ -18,7 +18,7 @@ body {
   font-size: 2rem;
   background: var(--secondary);
 
-  cursor: url("/assets/icons8-cursor-64.png"), auto;
+  cursor: url("../icons8-cursor-64.png"), pointer;
 }
 section {
   max-width: 90vw;
@@ -33,6 +33,8 @@ a {
   border-radius: var(--pill);
   font-weight: normal;
   text-decoration: none;
+
+  cursor: url("../icons8-cursor-64.png"), pointer;
 }
 a:hover {
   color: var(--primary);
